@@ -1,0 +1,142 @@
+ @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0px; 
+    padding: 0px;
+ }
+
+body {
+    /* height: 100vh; */
+    background-color: #211f1ff9;
+    color: #F6F6F6;
+}
+
+.cabecalho{
+    padding: 2% 3% 0% 5%;
+    
+}
+
+.cabecalho__menu{
+    display: flex;
+  justify-content: space-between;
+  
+   gap: 100px; 
+   
+}
+
+.cabecalho__menu__link{
+    font-family: 'Motserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #22d4fc;
+}
+
+.cabecalho__menu__link:hover{
+    font-size: 22px;
+}
+
+.principal {
+    padding: 5% 5% 2%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.principal__conteudo {
+    width: 600px; 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.principal__titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.principal__paragrafo {
+    font-size: 21px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.principal__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+.principal__links__subtitulo{
+  font-family: 'Krona One', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+/*.principal__paragrafo:hover{
+    color: #22D4FD;
+  }
+*/
+
+#destaque{
+    color: #22D4FD;
+}
+
+.principal__links__link {
+    /* background-color: #22D4FD;   */
+    display: flex;
+    justify-content: center;
+    gap: 10px;  
+    font-family: 'Montserrat', sans-serif;
+    color: #F6F6F6;
+    border: 2px solid #22d4fc; 
+    width: 280px;
+    border-radius: 50px;
+    font-size: 24px;
+    padding: 12px 0;
+}
+
+.principal__links__link:hover{
+ background-color: #beb2b2;
+ color: rgb(38, 36, 36);
+ padding: 13px 0;
+
+}
+
+.whatsapp{
+    display: flex;
+    justify-content: end;
+    padding: 0% 1% 2%;
+}
+
+.whatsapp__conjunto{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.whatsapp__nosso{
+    color: #F6F6F6;
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 20px;
+}
+
+ .whatsapp__image{
+    height: 80px;
+    width: 80px;
+} 
+
+.rodape{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-weight:600;
+    font-size: 24px;
+    background-color: #22d4fc;
+    color: black;
+    padding: 10px;
+}

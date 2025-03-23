@@ -1,0 +1,39 @@
+input{
+    padding: 15px;
+    border: none;
+    outline-color: #22d4fc;
+}
+
+p{
+    color: rgb(255, 107, 16);
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 5% 5% 2%;
+}
+.cadastro{
+    font-family: 'Motserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    border-radius: 15px;
+    background-color: #211f1ff9;
+    border: 2px solid #22d4fc;
+    outline: none;
+    color: #22d4fc;
+}
+
+button{
+    border: 2px solid #22d4fc; 
+    width: 70px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 12px 0;
+    background-color: #22d4fc;
+   
+}
